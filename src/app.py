@@ -4,7 +4,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def index():
-    print(1/0)
     return "---Hello, world!"
 
 
